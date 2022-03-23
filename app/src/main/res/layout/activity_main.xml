@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
 
     android:background="#D8ECF3">
-
+    <!--Текстове поле для вводу та виводу результату-->
     <TextView
         android:gravity="bottom|right"
         android:textSize="70dp"
@@ -15,12 +15,12 @@
         android:background="@drawable/white"
         android:id="@+id/textView"/>
 
-
+    <!-- Рядок 1-->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp">
-
+        <!-- Кнопка очищення поля з введеними значенями і результатом-->
         <Button
             android:id="@+id/btn_clean"
             android:layout_marginLeft="10dp"
@@ -28,7 +28,8 @@
             android:gravity="center"
             android:text="C"
             android:textSize="25sp" />
-
+        <!-- Задній фон (оранжевий), MARGEN - відступ, gravity розташування кнопки-->
+        <!--Кнопка видалення 1 символа з рядка вводу-->
         <Button
             android:id="@+id/btn_del"
             android:layout_marginLeft="10dp"
@@ -37,7 +38,7 @@
             android:gravity="center"
             android:text="Del"
             android:textSize="25sp" />
-
+        <!--Кнопка оператора ділення-->
         <Button
             android:id="@+id/btn_divide"
             android:layout_marginLeft="10dp"
@@ -49,12 +50,12 @@
             android:textSize="25sp" />
 
     </TableRow>
-
+    <!--Другий рядок-->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp">
-
+        <!--Кнопка з цифрою 7-->
         <Button
             android:id="@+id/btn_7"
             android:layout_marginLeft="10dp"
@@ -62,7 +63,7 @@
             android:gravity="center"
             android:text="7"
             android:textSize="25sp" />
-
+        <!--Кнопка з цифрою 8-->
         <Button
             android:id="@+id/btn_8"
             android:layout_marginLeft="10dp"
@@ -70,7 +71,7 @@
             android:gravity="center"
             android:text="8"
             android:textSize="25sp" />
-
+        <!--Кнопка з цифрою 9-->
         <Button
             android:id="@+id/btn_9"
             android:layout_marginLeft="10dp"
@@ -78,7 +79,7 @@
             android:gravity="center"
             android:text="9"
             android:textSize="25sp" />
-
+        <!--Кнопка з оператором множення-->
         <Button
             android:id="@+id/btn_multiply"
             android:layout_marginLeft="10dp"
@@ -88,12 +89,12 @@
             android:text="*"
             android:textSize="25sp" />
     </TableRow>
-
+    <!--Рядок 3-->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp">
-
+        <!--Кнопка з цифрою 4-->
         <Button
             android:id="@+id/btn_4"
             android:layout_marginLeft="10dp"
@@ -101,7 +102,7 @@
             android:gravity="center"
             android:text="4"
             android:textSize="25sp" />
-
+        <!--Кнопка з цифрою 5-->
         <Button
             android:id="@+id/btn_5"
             android:layout_marginLeft="10dp"
@@ -109,7 +110,7 @@
             android:gravity="center"
             android:text="5"
             android:textSize="25sp" />
-
+        <!--Кнопка з цифрою 6-->
         <Button
             android:id="@+id/btn_6"
             android:layout_marginLeft="10dp"
@@ -117,7 +118,7 @@
             android:gravity="center"
             android:text="6"
             android:textSize="25sp" />
-
+        <!--Кнопка з оператором +-->
         <Button
             android:id="@+id/btn_add"
             android:layout_marginLeft="10dp"
@@ -127,12 +128,12 @@
             android:text="+"
             android:textSize="25sp" />
     </TableRow>
-
+    <!--Рядок 4-->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp">
-
+        <!--Кнопка з цифрою 1-->
         <Button
             android:id="@+id/btn_1"
             android:layout_marginLeft="10dp"
@@ -140,7 +141,7 @@
             android:gravity="center"
             android:text="1"
             android:textSize="25sp" />
-
+        <!--Кнопка з цифрою 2-->
         <Button
             android:id="@+id/btn_2"
             android:layout_marginLeft="10dp"
@@ -148,7 +149,7 @@
             android:gravity="center"
             android:text="2"
             android:textSize="25sp" />
-
+        <!--Кнопка з цифрою 3-->
         <Button
             android:id="@+id/btn_3"
             android:layout_marginLeft="10dp"
@@ -156,7 +157,7 @@
             android:gravity="center"
             android:text="3"
             android:textSize="25sp" />
-
+        <!--Кнопка з оператором мінус-->
         <Button
             android:id="@+id/btn_minus"
             android:layout_marginLeft="10dp"
@@ -169,12 +170,12 @@
     </TableRow>
 
 
-
+    <!--Рядок 5-->
     <TableRow
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp">
-
+        <!--Кнопка з цифрою 0-->
         <Button
             android:id="@+id/btn_0"
             android:layout_marginLeft="10dp"
@@ -183,7 +184,7 @@
             android:gravity="center"
             android:text="0"
             android:textSize="25sp" />
-
+        <!--Кнопка з знаком . -->
         <Button
             android:id="@+id/btn_point"
             android:layout_marginLeft="10dp"
@@ -192,7 +193,7 @@
             android:gravity="center"
             android:text="."
             android:textSize="25sp" />
-
+        <!--Кнопка з знаком =  для обрахування результату-->
         <Button
             android:id="@+id/btn_equal"
             android:layout_marginLeft="10dp"
